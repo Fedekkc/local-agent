@@ -1,0 +1,19 @@
+# --- Core MCP (Model Context Protocol) ---
+openai        # Para interactuar con modelos externos si querés
+ollama        # Para usar Ollama localmente desde Python
+
+# --- Utilidades ---
+python-dotenv # Para manejar variables de entorno
+requests      # Para llamadas HTTP simples
+aiohttp       # HTTP asíncrono (ideal para MCP y streaming)
+uvicorn       # Servidor ASGI rápido
+fastapi       # Interfaz web o API si querés exponer tu agente
+
+# --- Herramientas opcionales ---
+psutil        # Para monitorear tu sistema (RAM, CPU, etc.)
+rich          # Logs coloridos y más legibles
+typer         # CLI sencilla (si querés lanzar comandos tipo "mcp run")
+
+# --- Desarrollo ---
+black         # Formateador de código
+pylint        # Linter opcional
